@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*
+#ffffff
+#fffaeb
+#f0f0d8
+#cfcfcf
+#595151
+*/
+
+*{
+    font-family: 'Heebo', sans-serif;
+}
+
+body{
+    background-color: #cfcfcf;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    border: solid 1px #595151;
+}
+
+#vg{
+    width: 100%;
+    height: 420px;
+    
+}
+
+#menu{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;    
+    background-color: #595151;
+}
+
+#menu > a {
+    margin: 0 30px;
+    padding: 15px;
+    color: white;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#menu a:hover{
+    background-color: #f0f0d8;
+    color: black;
+}
+
+#título{
+    text-align: center;
+    font-size: 40;
+}
+
+#texto{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+
+#história{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-color: white;
+    width: 100%;
+}
+
+#TH{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+#hist{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: 300px;
+    float: right;
+    clear: right;
+}
+
+#história > p{
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+#text{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-right: 70px;
+    margin-left: 40px;
+    text-align: right;
+}
+
+#vid1{
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+#curiosidades{
+    float: right;
+    clear: right;
+    display: flex;
+    background-color: white;
+}
+
+#curiosidades > h2{
+    margin-right: 70px;
+}
+
+#tc{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-right: 30px;
+    margin-left: 70px;
+}
+
+#vid2{
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+#mapa{
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#mapa > h2{
+    margin-bottom: 50px;
+}
+
+#dados{
+    text-align: center;
+}
+
+#dados > table{
+    margin: 0 auto;
+    background-color: #f0f0d8;
+}
+
+#SP{
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sub{
+    padding-bottom: 50px;
+}
+
+#subprefeito{
+    margin: 0 auto;
+    background-color: #f0f0d8;
+}
+
+#subprefeito > p, h2{
+    text-align: center;
+}
+
+#indice{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;    
+}
+
+#indice > a {
+    margin: 0 10px;
+    padding: 15px;
+    color: black;
+}
+
+#indice a{
+    text-decoration: none;
+}
+
+#Mercados{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #f0f0d8;
+}
+
+#Açougues{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #f0f0d8;
+}
+
+#Sorveterias{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #f0f0d8;
+}
+
+#Farmácias{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #f0f0d8;
+}
+
+#Pet{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #f0f0d8;
+}
+
+.foto{
+    margin: 40px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+}
+
+.fotos{
+    text-align: center;
+}
+
+#toronto{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+#PT{
+    margin-left: 70px;
+}
+
+#toron{
+    margin-left: 25px;
+    margin-right: 70px;
+    height: 300px;
+    float: right;
+    clear: right;
+}
+
+#toronto > p{
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 65px;
+}
+
+#toronto > p, h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#pico{
+    float: left;
+    margin-top: -50px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+#pic{
+    width: 500px;
+    height: 300px;
+}
+
+#jaragua{
+    margin-right: 40px;
+}
+
+#pj{
+    margin-bottom: 100px;
+}
+
+#tiete{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+#ti{
+    margin-left: 70px;
+}
+
+#tiet{
+    margin-left: 25px;
+    margin-right: 70px;
+    height: 300px;
+    float: right;
+    clear: right;
+}
+
+#tiete > p{
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 65px;
+}
+
+#tiete > p, h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#Romao{
+    padding-top: 10px;
+    padding-bottom: 90px;
+    background-color: #f0f0d8;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Romao > img{
+    margin-top: 50px;
+    margin-right: 40px;
+    float: right;
+}
+
+#tr{
+    margin-left: 100px;
+}
+
+#Village{
+    padding-top: 10px;
+    padding-bottom: 90px;
+    background-color: #f0f0d8;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Village > img{
+    margin-top: 20px;
+    margin-right: 40px;
+    float: right;
+}
+
+#Heiwa{
+    padding-top: 10px;
+    padding-bottom: 120px;
+    background-color: #f0f0d8;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Heiwa > img{
+    margin-top: 20px;
+    margin-right: 40px;
+    float: right;
+}
+
+form{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#not{
+    margin-left: 50px;
+}
+
+footer{
+    display: flex;
+    background-color: #595151;
+    color: #f0f0d8;
+    padding: 30px;
+}
+
+footer a{
+    color: #cfcfcf;
+    text-decoration: underline;
+}
+
+#fcont{
+    margin-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+#fdev{
+    width: 350px;
+    height: 200px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+#fcad{
+    width: 350px;
+    height: 200px;
+}
